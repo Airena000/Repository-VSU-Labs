@@ -3,7 +3,7 @@
 #include <sstream>
 using namespace std;
 
-vector<BOOK> readRecordsFromFile(const string& filename) {
+vector<BOOK> readFile(const string& filename) {
     vector<BOOK> records;
     ifstream file(filename);
     string line;
