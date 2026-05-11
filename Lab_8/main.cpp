@@ -1,4 +1,6 @@
-﻿#include <iostream>
+// При выполнении задания своего варианта нужно вписать номер и название варианта, а также свои имя и фамилию
+
+#include <iostream>
 #include <fstream>
 #include <string>
 using namespace std;
