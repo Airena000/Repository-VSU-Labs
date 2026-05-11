@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|D:\\Git_\\Repository-VSU-Labs\\Lab_8\\book.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|solutionrelative:book.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|D:\\Git_\\Repository-VSU-Labs\\Lab_8\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|D:\\Git_\\Repository-VSU-Labs\\Lab_8\\book.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|solutionrelative:book.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|D:\\Git_\\Repository-VSU-Labs\\Lab_8\\constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|solutionrelative:constants.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|D:\\Git_\\Repository-VSU-Labs\\Lab_8\\file_reader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|solutionrelative:file_reader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|D:\\Git_\\Repository-VSU-Labs\\Lab_8\\file_reader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|solutionrelative:file_reader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,15 +35,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-11T09:11:34.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "book.h",
               "DocumentMoniker": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\book.h",
               "RelativeDocumentMoniker": "book.h",
               "ToolTip": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\book.h",
               "RelativeToolTip": "book.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-11T07:50:25.039Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T09:11:33.871Z"
             },
             {
               "$type": "Document",
@@ -45,23 +65,33 @@
               "RelativeDocumentMoniker": "constants.h",
               "ToolTip": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\constants.h",
               "RelativeToolTip": "constants.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAATAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2026-05-11T07:48:02.06Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T09:11:32.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "main.cpp",
-              "DocumentMoniker": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\main.cpp",
-              "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\main.cpp",
-              "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABoAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "file_reader.h",
+              "DocumentMoniker": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\file_reader.h",
+              "RelativeDocumentMoniker": "file_reader.h",
+              "ToolTip": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\file_reader.h",
+              "RelativeToolTip": "file_reader.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-11T09:11:31.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "file_reader.cpp",
+              "DocumentMoniker": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\file_reader.cpp",
+              "RelativeDocumentMoniker": "file_reader.cpp",
+              "ToolTip": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\file_reader.cpp",
+              "RelativeToolTip": "file_reader.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-06T08:10:06.558Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T09:11:27.145Z"
             }
           ]
         }
