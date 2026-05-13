@@ -1,62 +1,67 @@
 #include "file_reader.h"
 #include <fstream>
 #include <sstream>
+#include <iostream>
 using namespace std;
 
-vector<BOOK> readFile(const string& filename) {
-    vector<BOOK> records;
+vector<CONFERENCE> readFile(const string& filename) {
+    vector<CONFERENCE> reports;
     ifstream file(filename);
-    string line;
-
-    while (getline(file, line)) {
-        BOOK rec;
-        stringstream ss(line);
-
-        ss >> rec.familiya >> rec.name >> rec.otchestvo
-            >> rec.start_date >> rec.end_date >> rec.author_fam
-            >> rec.author_name >> rec.author_otch;
-
-        getline(ss, rec.book_name);
-        if (!rec.book_name.empty() && rec.book_name[0] == ' ') {
-            rec.book_name = rec.book_name.substr(1);
-        }
-
-        records.push_back(rec);
+    if (!file.is_open()) {
+        cout << "Ошибка открытия файла!" << endl;
+        return reports;
     }
-    return records;
+    string line;
+    
+    while (getline(file, line)) {
+        CONFERENCE rep;
+        stringstream ss(line);
+        
+        ss >> rep.start >> rep.end >> rep.surname >> rep.name >> rep.patronymic;
+        
+        // Вся оставшаяся строка - тема доклада
+        getline(ss, rep.topic);
+        if (!rep.topic.empty() && rep.topic[0] == ' ') {
+            rep.topic = rep.topic.substr(1);
+        }
+        
+        reports.push_back(rep);
+    }
+    return reports;
 }
 
-void filter(const vector<BOOK>& records,
-    int choice,
-    const string& author_fam,
-const string& author_name,
-const string& author_otch,
-int targetMonth,
-int targetYear) {
-
+void filter(const vector<CONFERENCE>& reports, int choice) {
     switch (choice) {
     case 1: {
-        // Фильтрация по автору (Пушкин)
-        cout << "=== Книги Пушкина А.С. ===" << endl;
-        for (const auto& rec : records) {
-            if (rec.author_fam == author_fam&&
-                rec.author_name == author_name &&
-                rec.author_otch == author_otch) {
-                cout << rec.familiya << " " << rec.name << " "
-                    << rec.otchestvo << " - " << rec.book_name << endl;
+        // Доклады Иванова Ивана Ивановича
+        cout << "\n=== Доклады Иванова Ивана Ивановича ===" << endl;
+        for (const auto& rep : reports) {
+            if (rep.surname == "Иванов" && rep.name == "Иван" && rep.patronymic == "Иванович") {
+                cout << rep.start << " - " << rep.end << " - " 
+                     << rep.surname << " " << rep.name << " " << rep.patronymic << " - "
+                     << "\"" << rep.topic << "\"" << endl;
             }
         }
         break;
     }
     case 2: {
-        // Фильтрация по дате (март 2015)
-        cout << "=== Записи за март 2015 года ===" << endl;
-        for (const auto& rec : records) {
-            int month = (rec.start_date[3] - '0') * 10 + (rec.start_date[4] - '0');
-            int year = (rec.start_date[6] - '0') * 10 + (rec.start_date[7] - '0');
-            if (month == targetMonth && year == targetYear) {
-                cout << rec.familiya << " " << rec.name << " "
-                    << rec.otchestvo << " - "<< rec.book_name  << endl;
+        // Доклады длительностью больше 15 минут
+        cout << "\n=== Доклады длительностью > 15 минут ===" << endl;
+        for (const auto& rep : reports) {
+            // Переводим время в минуты
+            int startHour = (rep.start[0] - '0') * 10 + (rep.start[1] - '0');
+            int startMin = (rep.start[3] - '0') * 10 + (rep.start[4] - '0');
+            int endHour = (rep.end[0] - '0') * 10 + (rep.end[1] - '0');
+            int endMin = (rep.end[3] - '0') * 10 + (rep.end[4] - '0');
+            
+            int startTotal = startHour * 60 + startMin;
+            int endTotal = endHour * 60 + endMin;
+            int duration = endTotal - startTotal;
+            
+            if (duration > 15) {
+                cout << rep.start << " - " << rep.end << " - "
+                     << rep.surname << " " << rep.name << " " << rep.patronymic << " - "
+                     << "\"" << rep.topic << "\""<<endl;
             }
         }
         break;

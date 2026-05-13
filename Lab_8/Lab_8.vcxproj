@@ -131,7 +131,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="book.h" />
+    <ClInclude Include="conference.h" />
     <ClInclude Include="constants.h" />
     <ClInclude Include="file_reader.h" />
   </ItemGroup>
