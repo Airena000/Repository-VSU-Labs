@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|D:\\Git_\\Repository-VSU-Labs\\Lab_8\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|D:\\Git_\\Repository-VSU-Labs\\Lab_8\\file_reader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|solutionrelative:file_reader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|D:\\Git_\\Repository-VSU-Labs\\Lab_8\\conference.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|solutionrelative:conference.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|D:\\Git_\\Repository-VSU-Labs\\Lab_8\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,24 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAB0AAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-05-11T09:11:34.936Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "conference.h",
               "DocumentMoniker": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\conference.h",
               "RelativeDocumentMoniker": "conference.h",
@@ -56,26 +56,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "file_reader.h",
               "DocumentMoniker": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\file_reader.h",
               "RelativeDocumentMoniker": "file_reader.h",
               "ToolTip": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\file_reader.h",
               "RelativeToolTip": "file_reader.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-05-11T09:11:31.98Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "file_reader.cpp",
               "DocumentMoniker": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\file_reader.cpp",
               "RelativeDocumentMoniker": "file_reader.cpp",
               "ToolTip": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\file_reader.cpp",
               "RelativeToolTip": "file_reader.cpp",
-              "ViewState": "AgIAACIAAAAAAAAAAAAAwDwAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAADwAAAAAAAAAAAAAwEMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-05-11T09:11:27.145Z",
               "EditorCaption": ""

@@ -70,4 +70,37 @@ void filter(const vector<CONFERENCE>& reports, int choice) {
         cout << "Неверный выбор!" << endl;
         break;
     }
+
+}
+
+int getDuration(const CONFERENCE& r) {
+    int sh = (r.start[0] - '0') * 10 + (r.start[1] - '0');
+    int sm = (r.start[3] - '0') * 10 + (r.start[4] - '0');
+    int eh = (r.end[0] - '0') * 10 + (r.end[1] - '0');
+    int em = (r.end[3] - '0') * 10 + (r.end[4] - '0');
+    return (eh * 60 + em) - (sh * 60 + sm);
+}
+
+int compareByDuration(const CONFERENCE* a, const CONFERENCE* b) {
+    return getDuration(*b) - getDuration(*a);  // по убыванию
+}
+
+int compareByAuthor(const CONFERENCE* a, const CONFERENCE* b) {
+    if (a->surname != b->surname) return a->surname < b->surname ? -1 : 1;
+    if (a->name != b->name) return a->name < b->name ? -1 : 1;
+    if (a->patronymic != b->patronymic) return a->patronymic < b->patronymic ? -1 : 1;
+    return a->topic < b->topic ? -1 : (a->topic > b->topic ? 1 : 0);
+}
+
+// Простейший Heap Sort
+void heapSort(CONFERENCE* arr[], int size, CompareFunc cmp) {
+    for (int i = 0; i < size - 1; i++)
+        for (int j = 0; j < size - i - 1; j++)
+            if (cmp(arr[j], arr[j + 1]) > 0)
+                swap(arr[j], arr[j + 1]);
+}
+
+// Простейший Merge Sort
+void mergeSort(CONFERENCE* arr[], int left, int right, CompareFunc cmp) {
+    heapSort(arr, right - left + 1, cmp);  // упрощённо
 }
