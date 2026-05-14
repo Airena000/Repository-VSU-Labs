@@ -47,7 +47,11 @@
               "RelativeDocumentMoniker": "..\\unit-test-project\\unit-test-project.cpp",
               "ToolTip": "D:\\Git_\\Repository-VSU-Labs\\unit-test-project\\unit-test-project.cpp",
               "RelativeToolTip": "..\\unit-test-project\\unit-test-project.cpp",
+<<<<<<< HEAD
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAfAAAAAAAAAA==",
+=======
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAWAAAAAAAAAA==",
+>>>>>>> dev
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2026-05-14T07:43:29.298Z",
               "EditorCaption": ""
