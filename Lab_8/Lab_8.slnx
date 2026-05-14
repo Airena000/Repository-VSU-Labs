@@ -4,7 +4,5 @@
     <Platform Name="x86" />
   </Configurations>
   <Project Path="../unit-test-project/unit-test-project.vcxproj" />
-  <Project Path="Lab_8.vcxproj" Id="ecb1dd77-2dd6-4fad-bbea-58ed2b03876a">
-    <Platform Solution="Debug|x64" Project="Win32" />
-  </Project>
+  <Project Path="Lab_8.vcxproj" Id="ecb1dd77-2dd6-4fad-bbea-58ed2b03876a" />
 </Solution>
