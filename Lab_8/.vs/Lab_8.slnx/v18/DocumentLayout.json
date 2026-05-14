@@ -3,8 +3,23 @@
   "WorkspaceRootPath": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3E33DF3B-AB9B-8055-0E54-B09604673B1D}|..\\unit-test-project\\unit-test-project.vcxproj|D:\\Git_\\Repository-VSU-Labs\\unit-test-project\\unit-test-project.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|D:\\Git_\\Repository-VSU-Labs\\Lab_8\\process.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|solutionrelative:process.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|D:\\Git_\\Repository-VSU-Labs\\Lab_8\\processing.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|solutionrelative:processing.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|D:\\Git_\\Repository-VSU-Labs\\Lab_8\\file_reader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|solutionrelative:file_reader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|D:\\Git_\\Repository-VSU-Labs\\Lab_8\\conference.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|solutionrelative:conference.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|D:\\Git_\\Repository-VSU-Labs\\Lab_8\\file_reader.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -13,10 +28,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|D:\\Git_\\Repository-VSU-Labs\\Lab_8\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|D:\\Git_\\Repository-VSU-Labs\\Lab_8\\conference.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{ECB1DD77-2DD6-4FAD-BBEA-58ED2B03876A}|Lab_8.vcxproj|solutionrelative:conference.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +37,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "unit-test-project.cpp",
+              "DocumentMoniker": "D:\\Git_\\Repository-VSU-Labs\\unit-test-project\\unit-test-project.cpp",
+              "RelativeDocumentMoniker": "..\\unit-test-project\\unit-test-project.cpp",
+              "ToolTip": "D:\\Git_\\Repository-VSU-Labs\\unit-test-project\\unit-test-project.cpp*",
+              "RelativeToolTip": "..\\unit-test-project\\unit-test-project.cpp*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-14T07:43:29.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "process.cpp",
+              "DocumentMoniker": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\process.cpp",
+              "RelativeDocumentMoniker": "process.cpp",
+              "ToolTip": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\process.cpp",
+              "RelativeToolTip": "process.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2026-05-14T07:29:21.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "processing.h",
+              "DocumentMoniker": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\processing.h",
+              "RelativeDocumentMoniker": "processing.h",
+              "ToolTip": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\processing.h",
+              "RelativeToolTip": "processing.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2026-05-14T07:28:43.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "main.cpp",
               "DocumentMoniker": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
@@ -38,25 +88,24 @@
               "RelativeToolTip": "main.cpp",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-11T09:11:34.936Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T09:11:34.936Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "conference.h",
               "DocumentMoniker": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\conference.h",
               "RelativeDocumentMoniker": "conference.h",
               "ToolTip": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\conference.h",
               "RelativeToolTip": "conference.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2026-05-11T09:11:33.871Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "file_reader.h",
               "DocumentMoniker": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\file_reader.h",
               "RelativeDocumentMoniker": "file_reader.h",
@@ -69,7 +118,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "file_reader.cpp",
               "DocumentMoniker": "D:\\Git_\\Repository-VSU-Labs\\Lab_8\\file_reader.cpp",
               "RelativeDocumentMoniker": "file_reader.cpp",
@@ -77,8 +126,7 @@
               "RelativeToolTip": "file_reader.cpp",
               "ViewState": "AgIAAEUAAAAAAAAAAAAAwFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2026-05-11T09:11:27.145Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-05-11T09:11:27.145Z"
             }
           ]
         }
